@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  min-height: 100vh;
+  background-image: url(/images/bg-mobile-light.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 4.8rem 2.6rem;
+}
+
+@media only screen and (min-width: 90rem) {
+  body {
+    background-image: url(/images/bg-desktop-light.jpg);
+  }
+}
