@@ -179,6 +179,8 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
+  max-width: 40rem;
+  margin: auto;
   gap: 1.6rem;
 
   @media only screen and (min-width: 90rem) {
